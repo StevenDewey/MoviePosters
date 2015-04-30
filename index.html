@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>	</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
+</head>
+<body ng-app="moviePosterApp" ng-controller="movieController" >
+	<header>	
+
+
+	<nav><!--	
+	 	--><a class="navbar-brand left" href="index.html"><h3>Home</h3></a><!--
+		--><a class="navbar-brand left" href="" ng-click="scrollToID('bottom')"><h3>Remember the Titans</h3></a><!-- 
+		--><a class="navbar-brand left" href="" ng-click="scrollToID('top')"><h3>Maze Runner</h3></a><!--
+
+	--></nav>
+
+	</header>
+	<div id="header">
+		
+		<h1>Movie Posters</h1>
+		<div class="accordian">
+			<ul>
+				<li>
+					<div class="image_title">
+						<a href="" ng-click="scrollToID('top')">Maze Runner</a>
+					</div>
+					<a href="" ng-click="scrollToID('top')">
+						<img width="640px" src="Assets/mr1.png"/>
+					</a>
+				</li>
+				<li>
+					<div class="image_title">
+						<a href="" ng-click="scrollToID('bottom')">Remember the Titans</a>
+					</div>
+					<a href="" ng-click="scrollToID('bottom')">
+						<img width="640px" src="Assets/rtt1.jpg"/>
+					</a>
+				</li>
+				<li>
+					<div class="image_title">
+						<a href="" ng-click="scrollToID('top')">Maze Runner</a>
+					</div>
+					<a href="" ng-click="scrollToID('top')">
+						<img src="Assets/mr2.jpg"/>
+					</a>
+				</li>
+				<li>
+					<div class="image_title">
+						<a href="" ng-click="scrollToID('bottom')">Remember the Titans</a>
+					</div>
+					<a href="" ng-click="scrollToID('bottom')">
+						<img src="Assets/rtt2.jpg"/>
+					</a>
+				</li>
+				<li>
+					<div class="image_title">
+						<a href="" ng-click="scrollToID('top')">Maze Runner</a>
+					</div>
+					<a href="" ng-click="scrollToID('top')">
+						<img src="Assets/mr3.jpg"/>
+					</a>
+				</li>
+				<li>
+					<div class="image_title">
+						<a href="" ng-click="scrollToID('bottom')">Remember the Titans</a>
+					</div>
+					<a href="" ng-click="scrollToID('bottom')">
+						<img src="Assets/rtt3.png"/>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<div id="top">
+		<div id="maze">
+			<h1>Can You Escape?</h1>
+			<h3>You Arrive Remembering nothing, Your Life Now has One Purpose - Get Out of the Maze!</h3>
+			<img src="Assets/mazerunner.jpg" alt="Maze Runner" >
+		</div>
+		<div id="right">
+			<h4>The Maze Runner</h4>
+			<p>Based off the first book of a young adult trilogy written by James Dashner. The novel was originally published on October 6, 2009. Thomas, the main character, arrives at the glade. The glade is where all the boys live. There is gigantic maze surrounding the glade. Every morning the doors to the maze open and the boys send runners into the maze to try and find a way out. In the evening the doors close and the grievers roam the maze. Grievers are ferocious mechanical creatures that kill whatever stays in the maze overnight. Thomas, ends up pushing the limits of the glade community and ultimately finds a way out of the maze – at the cost of much carnage. The movie ends with a tie in to a greater plot, that the maze is an experiment in a post-apocalyptic world. </p>
+		</div>
+	</div>
+
+	<div id="bottom">
+		<div id="remember">
+			<h1> Football Unites!</h1>
+			<h2>When Races Collide...</h2>
+			<img src="Assets/rtt.jpg" alt="Remember the Titans" >
+		</div>
+		<div id="left">
+				<h4>Remember the Titans</h4>
+				<p>Based off the true story of African American football coach Herman Boone, played by Denzel Washington. The movie was released in 2000 and instantly became the best movie in the world. The plot is set in 1971 when Coach Boone was hired as the head coach of recently desegregated TC Williams High School. He took the position of coach Yoast who was set to be inducted into the hall of fame that year. The team goes to camp and has many racial related clashes, but by the time they come back they are all friends. After being thrown back into the real world after camp the team struggles to maintain its unity. To compound the issue the school notifies Coach Boone if he loses one game he will be fired. Coach Yoast ends up forfeiting the hall of fame in route to a perfect season. </p>
+		</div>
+	</div>
+	
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
+
+
